@@ -1,0 +1,270 @@
+.full-header {
+    width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: white;
+    border-bottom: 3px solid #cccccc;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    background-color: #4aaaa5;
+    color: white;
+    display: inline-block;  /*This was killing me!!!!*/
+    padding: 20px;
+    font-size: 32px;
+}
+
+h2 {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #4aaaa5;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #cccccc;
+}
+
+.nav-links {
+    width: 250px;
+    float: right;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.link-about {
+    text-decoration: none;
+    font-size: 16px;
+    color: #777777;
+    margin-right: 10px;
+    border-right: 2px solid #cccccc;
+    padding-right: 20px;
+}
+
+.link-portfolio {
+    text-decoration: none;
+    font-size: 16px;
+    color: #777777;
+    margin-right: 10px;
+    border-right: 2px solid #cccccc;
+    padding-right: 20px;
+}
+
+.link-contact {
+    text-decoration: none;
+    font-size: 16px;
+    color: #777777;
+}
+
+body {
+    margin: 0;
+    background-image: url("../images/concrete-texture.png");
+    background-repeat: repeat;
+    color: #777777;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    overflow: auto;
+}
+
+.full-content {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#bio_image {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+#content1 {
+    width: 750px;
+    background-color: white;
+    float: left;
+    margin-bottom: 150px;
+}
+
+#name-label {
+    line-height: 1.75;
+    color: #777777;
+}
+
+#name-box {
+    width: 100%;
+    margin-right: 20px;
+}
+
+#email-label {
+    line-height: 1.75;
+    color: #777777;
+}
+
+#email-box {
+    width: 100%;
+    margin-right: 20px;
+}
+
+#message-label {
+    line-height: 1.75;
+    color: #777777;
+}
+
+#message-box {
+    width: 100%;
+    margin-right: 20px;
+    border-color: #cccccc;
+}
+
+#submit-button {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 16px;
+    width: 20%;
+}
+
+.para-text {
+    margin: 20px;
+    line-height: 1.5;
+}
+
+.input-area {
+    margin: 20px;
+}
+
+.footer-clear {
+    display: block;
+    clear: both;  
+}
+
+footer {
+    /* display: block; */
+    /* clear: both;  Thanks for the clearfix mention in class.  Helps to know what to search for */
+    /* width: 960px; */
+    /* margin: 0 auto; */
+ 
+    text-align: center;
+    color: #cccccc;
+    background-color: #666666;
+    /* height: 60px; */
+    border-top: 10px solid #4aaaa5;
+    /* float: left; */
+    padding: 30px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: 150px;
+}
+
+.image-area {
+    margin: 20px;
+}
+
+
+#hng-image {
+    width: 200px;
+}
+
+.hangman-image {
+    float: left;
+    margin-right: 50px;
+}
+
+.hangman-text {
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 15px;
+    position: relative;
+    bottom: 75px;
+}
+
+#rpg-image {
+    width: 200px;
+}
+
+.rolePlayingGame-image {
+    float: left;
+    margin-right: 200px;
+}
+
+.rolePlayingGame-text {
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 15px;
+    position: relative;
+    bottom: 75px;
+}
+
+#trv-image {
+    width: 200px;
+}
+
+.trivia-image {
+    float: left;
+    margin-right: 50px;
+}
+
+.trivia-text {
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 15px;
+    position: relative;
+    bottom: 75px;
+}
+
+#iw-image {
+    width: 200px;
+}
+
+.infoWidget-image {
+    float: left;
+    margin-right: 200px;
+}
+
+.infoWidget-text {
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 15px;
+    position: relative;
+    bottom: 75px;
+}
+
+#rps-image {
+    width: 200px;
+}
+
+.rockPaperScissors-image {
+    float: left;
+    margin-right: 50px;
+}
+
+.rockPaperScissors-text {
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 15px;
+    position: relative;
+    bottom: 75px;
+}
+
+
